@@ -1,6 +1,7 @@
 # NITK-KODE
 
 A website for NIT-KODE, made so that NITK students can make their beginner contributions and get familiar with the GitHub and git ecosystem.  
+(https://nitk-kode.github.io/)
 
 ## Learn Git and Github
 - [Git Basics](https://www.freecodecamp.org/news/learn-the-basics-of-git-in-under-10-minutes-da548267cc91/)
