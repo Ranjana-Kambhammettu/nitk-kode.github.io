@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Kaushan+Script">
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <script type="text/javascript" src="assets/js/FormSubmit.js"></script>
 </head>
 
 <body id="page-top" data-bs-spy="scroll" data-bs-target="#mainNav" data-bs-offset="54">
@@ -163,15 +164,15 @@
             </div>
             <div class="row">
                 <div class="col-lg-12">
-                    <form id="contactForm" name="contactForm" action="https://send.pageclip.co/XaebiYBDPAKyaIrImWjfnpsOYuiYAhyK/ContactForm" method="POST">
+                    <form id="contactForm" name="contactForm" action="#contactForm" onsubmit="submitContactUs(event)">
                         <div class="row">
                             <div class="col-md-6">
-                                <div class="form-group mb-3"><input class="form-control" type="text" id="name" name="Name" placeholder="Your Name *" required><small class="form-text text-danger flex-grow-1 help-block lead"></small></div>
-                                <div class="form-group mb-3"><input class="form-control" type="email" id="email" name="E-Mail" placeholder="Your Email *" required><small class="form-text text-danger help-block lead"></small></div>
-                                <div class="form-group mb-3"><input class="form-control" type="tel" name="Phone" placeholder="Your Phone *" required><small class="form-text text-danger help-block lead"></small></div>
+                                <div class="form-group mb-3"><input class="form-control" type="text" id="contact-name" name="Name" placeholder="Your Name *" required><small class="form-text text-danger flex-grow-1 help-block lead"></small></div>
+                                <div class="form-group mb-3"><input class="form-control" type="email" id="contact-email" name="E-Mail" placeholder="Your Email *" required><small class="form-text text-danger help-block lead"></small></div>
+                                <div class="form-group mb-3"><input class="form-control" type="tel" id="contact-tel" name="Phone" placeholder="Your Phone *" required><small class="form-text text-danger help-block lead"></small></div>
                             </div>
                             <div class="col-md-6">
-                                <div class="form-group mb-3"><textarea class="form-control" id="message" name="Message" placeholder="Your Message *" required></textarea><small class="form-text text-danger help-block lead"></small></div>
+                                <div class="form-group mb-3"><textarea class="form-control" id="contact-message" name="Message" placeholder="Your Message *" required></textarea><small class="form-text text-danger help-block lead"></small></div>
                             </div>
                             <div class="w-100"></div>
                             <div class="col-lg-12 text-center">
